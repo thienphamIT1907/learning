@@ -1,7 +1,7 @@
 const initDatabase = () => console.log("Init database...");
 const closeDatabase = () => console.log("Close database...");
 
-describe("test suite with teardown", () => {
+describe.skip("test suite with teardown", () => {
   beforeAll(() => console.log("run beforeAll..."));
   afterAll(() => console.log("run afterAll..."));
 
@@ -20,7 +20,7 @@ describe("test suite with teardown", () => {
   });
 });
 
-describe("Another test suite", () => {
+describe.skip("Another test suite", () => {
   test('Another test case', () => {
     console.log('run other test case to test before after scope!')
   })

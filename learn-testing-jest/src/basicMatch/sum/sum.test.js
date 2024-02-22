@@ -1,4 +1,4 @@
-import { sum } from "./../sum.js";
+import { sum } from "./index.js";
 
 describe.skip("Test with mock data", () => {
   test("adds 1 + 2 to equal 3", () => {
