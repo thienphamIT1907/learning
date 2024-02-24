@@ -1,0 +1,34 @@
+
+.container {
+  display: flex;
+  border: 2px solid olive;
+  margin: 20px;
+}
+
+.menu {
+  padding: 10px 15px;
+
+}
+
+.home {
+  
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: content;
+
+  /* flex: 1 1 200px; shorthand */
+}
+
+.login {
+  flex-basis: 200px;
+  flex-grow: 0;
+  flex-shrink: 2;
+}
+ 
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-lightblue {
+  background-color: lightblue;
+}
