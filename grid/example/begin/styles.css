@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+  font-style: 16px;
+  background: #1e2021;
+  height: 100%;
+}
+
+.container {
+  max-width: 768px;
+  min-height: 768px;
+  border: 2px solid #bb95c2;
+  margin: 100px auto;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(2, 100px);
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid black;
+  background: #7eaea3;
+  border: 1px solid #a9d8cd;
+  color: white;
+  border-radius: 6px;
+}
