@@ -19,6 +19,15 @@
   grid-template-columns: repeat(2, 100px);
   justify-content: space-evenly;
   align-content: space-evenly;
+  margin: 100px auto;
+  background: #80808033;
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  align-items: start;
+  justify-content: space-between;
+  grid-auto-flow: dense;
 }
 
 .item {
